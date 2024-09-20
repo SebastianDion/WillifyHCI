@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+}
+
+#border {
+ text-align: center;
+  margin: 0 auto;
+  width: 400px; 
+ 
+}
+
+#Willify{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+#backbtn{
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 29px;
+    height: 29px;
+}
+
+#Logo{
+    margin-bottom: 20px; 
+}
+
+#Input {
+    margin-bottom: 10px;  
+  }
+  
+  input[type="text"],
+  input[type="password"]
+{
+    width: 75%; 
+    padding: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 14px; 
+  }
+
+  button[type="submit"] {
+ 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 768px) {
+    #border {
+        width: 90%;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+        padding: 10px;
+       
+    }
+
+    button[type="submit"] {
+        width: 100%;
+        padding: 15px;
+    }
+
+    #backbtn {
+        padding-left: 0;
+        padding-top: 5px;
+        width: 25px;
+        height: 25px;
+    }
+}

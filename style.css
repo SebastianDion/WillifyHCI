@@ -1,0 +1,52 @@
+.Title{
+    font-size:48px ;
+    font-weight: bold;
+    color: #5AB84B ;
+    padding-top: 120px;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+    
+}
+.Logo_Image {
+    margin-top: 1px;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+.banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    background-color: rgb(0, 0, 0);
+    opacity: 0.38;
+}
+
+.button_start{
+    margin-top: 50px;
+    margin-left: auto; 
+    margin-right: auto;
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    
+    display: flex;
+}
+
+.color-section {
+    flex: 1;
+    background-color: #000000; 
+}
+
+.content {
+    flex: 3;
+    background-color: #120606; 
+}

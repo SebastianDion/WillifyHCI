@@ -1,0 +1,298 @@
+body{
+    background-color: black;
+}
+
+#controlPanel{
+    padding-top: 20px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#songLogo{
+        background-color: #ffffff; 
+        border: none;
+        color: black;
+        padding: 8px 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 20px;
+        cursor: pointer;
+}
+
+#aboutUsLogo{
+    background-color: #ffffff; 
+    border: none;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+#Login-Register{
+    color: #ffffff;
+    position: absolute; 
+  top: 20px; 
+  right: 20px; 
+  padding: 10px; 
+  display: flex;
+  align-items: center;
+  /* border: 1px solid white; */
+}
+
+/* #GuestIcon{
+    
+   
+    border: 1px solid white; 
+} */
+
+#textLogin:hover {
+    color: rgb(125, 238, 125);
+}
+
+#textLogin{
+    margin-left: 5px;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* border: 1px solid white; */
+}
+
+#border {
+   
+    text-align: center;
+     margin: 0 auto;
+     
+     /* width: 400px;  */
+     /* padding-bottom: 20px;
+     border: 0px solid white;
+     border-radius: 10px;
+     background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(23,6,10,1) 30%, rgba(217,60,92,1) 100%); */
+   }
+
+#Willify{
+margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+#Logo{
+    margin-bottom: 20px; 
+}
+
+#text-Intro{
+ text-align: center;
+     margin: 0 auto;
+     width: 900px;
+     font-family: Arial, Helvetica, sans-serif;
+     /* border: 1px solid white;
+     background-color: ; */
+}
+
+#Intro{
+    text-align: justify;
+    color: azure;
+
+}
+
+#HomeDisplay{
+    background-color: #1F1F22;
+    /* background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(23,6,10,1) 30%, rgb(160, 44, 67) 100%); */
+    height: 100%;
+    border: 0px solid #000000; 
+    border-radius: 14px; 
+    padding: 30px;
+    padding-bottom: 50px;
+}
+
+#BestSeller{
+    padding-top: 20px;
+    padding-left: 155px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+}
+
+#Songs{
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+
+  .songsContainer p {
+    line-height: 0.5;
+  }
+
+  .songsContainer:hover{
+    transform: scale(1.1);
+    /* background-color: yellow; */
+  }
+
+  .clickable{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+  .songsContainer{
+    background-color: #5144445c;
+    border:0.5px  #90727200;
+    border-radius: 7px; 
+  }
+  
+  
+.tagline{
+    padding-left: 9px;
+    color: #EF2F62;
+    font-size: 12px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.songTitle{
+    padding-left: 9px;
+    color: #FCFCFC;
+    font-size: 18px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.artist{
+    padding-left: 9px;
+    color: #9898A6;
+    font-size: 14px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.feature{
+    padding-left: 9px;
+    color: #9898A6;
+    font-size: 13px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#WatermarkContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#FooterDud{
+    color: rgba(255, 255, 255, 0.725);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    #controlPanel {
+        display: flex;
+        /* flex-direction: column; */
+        padding-left: 0;
+        top: 188px;
+        left: 10px;
+        padding: 5px;
+    }
+
+  
+    
+    
+    #songLogo{
+        background-color: #ffffff; 
+        border: none;
+        color: black;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        border-radius: 20px;
+    }
+
+    #aboutUsLogo{
+    background-color: #ffffff; 
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+   
+    }
+
+  
+
+    #Login-Register {
+        top: 10px;
+        right: 10px;
+        padding: 5px;
+    }
+
+    #textLogin {
+        font-size: 10px;
+    }
+
+    #textLogin:hover {
+        color: rgb(125, 238, 125);
+    }
+
+    #border {
+        width: 80%;
+    }
+
+    #Willify {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    #text-Intro {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    #HomeDisplay {
+        padding: 20px;
+        padding-bottom: 30px;
+    }
+
+    #BestSeller {
+        padding-left: 0;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    #Songs {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .songsContainer {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .pic{
+        padding-left: 28px;
+    }
+    .tagline, .songTitle, .artist, .feature {
+        font-size: 10px;
+        padding-left: 28px;
+        
+    }
+}

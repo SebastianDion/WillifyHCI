@@ -1,0 +1,138 @@
+body{
+    background-color: black;
+}
+#backbtn{
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 29px;
+    height: 29px;
+}
+
+#border {
+    
+    text-align: center;
+     margin: 0 auto;
+     width: 400px; 
+    
+   }
+
+#Willify{
+margin-top: 50px;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(255, 255, 255);
+}
+#Logo{
+    margin-bottom: 20px; 
+}
+
+#aboutUsDisplay{
+    background-color: #1F1F22;
+    height: 100%;
+    border: 1px solid #000000; 
+    border-radius: 14px; 
+    padding: 30px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+}
+
+#aboutUsGrid{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#creatorContent{
+    padding-top: 10pxpx;
+}
+
+
+
+#AnimePic{
+    /* padding-left: 80px; */
+    width: 150px;
+    height: 150px;
+}
+
+#aboutUsText{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraph{
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.paragraph2{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#WatermarkContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#FooterDud{
+    color: rgba(255, 255, 255, 0.725);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    #border {
+        width: 90%;
+    }
+
+    #Willify {
+        margin-top: 20px;
+        font-size: 24px;
+    }
+
+    #aboutUsDisplay {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    #aboutUsGrid {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #AnimePic {
+        width: 100px;
+        height: 100px;
+        /* margin: 0 auto; */
+        padding-left: 35%;
+        /* border: 1px solid white; */
+    }
+
+    #aboutUsText {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .paragraph {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+
+    .paragraph2 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #WatermarkContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #FooterDud {
+        font-size: 12px;
+        text-align: center;
+    }
+}

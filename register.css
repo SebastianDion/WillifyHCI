@@ -1,0 +1,136 @@
+body{
+    background-color: black;
+}
+
+#border {
+ text-align: center;
+  margin: 0 auto;
+  width: 400px; 
+ 
+}
+
+  #Willify{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#backbtn{
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 29px;
+    height: 29px;
+}
+
+#Logo{
+    margin-bottom: 20px; 
+}
+
+#rButton {
+  display: flex;
+  align-items: center; 
+  padding-left: 120px;
+}
+
+label {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 1px; 
+}
+
+input[type="radio"] {
+  margin-left: 10px; 
+}
+
+.Input {
+    margin-bottom: 10px; 
+   
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"] {
+    width: 75%; 
+    padding: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 14px; 
+  }
+
+#submit{
+    
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+.Errormessage{
+  color: rgba(255, 255, 255, 0.559);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  padding-left: 35px;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  #border {
+      width: 90%;
+      /* background-color: ; */
+  }
+
+  #rButton {
+      padding-left: 0;
+      display: flex;
+      /* flex-direction: column; */
+      /* align-items: flex-start; */
+  }
+
+  label {
+      margin-left: 0;
+      margin-top: 10px;
+  }
+
+  input[type="radio"] {
+      margin-left: 10px;
+      margin-top: 10px;
+     
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"] {
+      width: 100%;
+      padding: 10px;
+  }
+
+  #submit {
+      width: 100%;
+      padding: 15px;
+  }
+
+  .Errormessage {
+      padding-left: 15px;
+  }
+/* 
+  #TextLogin{
+    color: white;
+    text-align: center; 
+    padding-left: 40px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    font-size: 12px;
+  }
+
+  #Login{
+
+    color: white;
+    text-align: center; 
+   
+     padding-bottom: 10px;
+      font-size: 12px;
+  } */
+
+ 
+}

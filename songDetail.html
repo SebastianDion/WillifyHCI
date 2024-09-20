@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Songs</title>
+    <link rel='icon' href="Assets/Group 1.png">
+    <link rel="stylesheet" href="songDetail.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+</head>
+<body>
+    <div id="back-button">
+        <a href="songs.html">
+            <img id="backbtn"src="/Assets/TopNav-Icon-Button.png" >
+          </a>
+    </div>
+    
+    <div class="topNav">
+        
+
+        <div id="leftNav">
+            <img id="songImg" src="" >
+            <div id="SongTitle">
+                <p class="songName"></p>
+                <p class="artistName"></p>
+                <p class="releaseDate"></p>
+            </div>
+           
+        </div>
+        
+        <div class="rightNav">
+            <!-- <i class='bx bx-play-circle'></i> -->
+            <h3 class="producerHeader">Producer</h3>
+            <p class="producer"></p>
+        </div>
+
+    </div>
+
+    <div id="contentDisplay">
+        <div id="leftGrid">
+            <h2 style="color: white; font-family: Arial, Helvetica, sans-serif;">Lyrics</h2>
+            <p class="lyrics"></p>
+        </div>
+
+        <div id="rightGrid">
+            <h2 style="color: white; font-family: Arial, Helvetica, sans-serif;">Artist Message</h2>
+            <p class="desc"></p>
+        </div>
+    </div>
+</body>
+
+<script src="./songDetail.js"></script>
+</html>

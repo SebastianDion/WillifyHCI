@@ -1,0 +1,188 @@
+body{
+    background-color: black;
+}
+
+#backbtn{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    width: 29px;
+    height: 29px;
+}
+
+.topNav{
+    padding-left: 100px;
+    padding-top: 60px;
+    padding-right: 100px;
+    padding-bottom: 60px;
+    background: linear-gradient(to top, #ff6b6b4f, #ff8e8e22);
+    /* border: 0px solid #000000;  */
+    border-radius: 14px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#songImg{
+    
+    width: 200px;
+    height: 200px;
+   
+}
+
+#leftNav{
+    line-height: 0;
+    /* border: 1px solid #000000;  */
+    display: flex;
+    
+}
+
+#SongTitle{
+    
+    padding-left: 10px;
+    line-height: 0;
+    /* border: 1px solid #000000;  */
+
+    align-items: center;
+}
+
+.songName{
+    
+    color: rgba(255, 255, 255, 0.521);
+    font-size: 30px;
+    line-height: 0.2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.artistName{
+    color:rgba(255, 255, 255, 0.521) ;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.releaseDate{
+    /* padding-top: 100px;
+    text-align: right;  */
+    color:rgba(255, 255, 255, 0.521) ;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rightNav{
+    /* border: 1px solid #ffffff; */
+    justify-items: end;
+    line-height: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.rightNav i{
+    color: rgba(250, 235, 215, 0.364);
+    font-size: 40px;
+    padding-bottom: 90px;
+    display: flex;
+    padding-left: 50px;
+}
+
+
+.producer{
+    color: rgba(245, 245, 245, 0.536);
+}
+
+
+#contentDisplay{
+    border: 10px solid #ffffff00; 
+    padding-right: 100px;
+    padding-left: 100px;
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    grid-gap: 20px;
+}
+
+#leftGrid{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgba(245, 142, 142, 0.512);
+    text-align: justify;
+    /* border: 1px solid #ffffff; */
+    background-color: #1F1F22;
+    border-radius: 10px;
+}
+
+#rightGrid{
+    color: rgba(245, 142, 142, 0.512);
+    text-align: justify;
+    /* border: 1px solid #ffffff;  */
+    background-color: #1F1F22;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    /* body{
+        background: black;
+        background: linear-gradient(to top, #ff6b6b4f, #ff8e8e22);
+    /* border: 0px solid #000000;  */
+    
+    .topNav {
+        padding: 5px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #songImg {
+        padding-top: 5px;
+        border: 0px solid black;
+        border-radius: 30px;
+        width: 150px;
+        height: 150px;
+    }
+
+    #leftNav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #SongTitle {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .songName {
+        font-size: 24px;
+    }
+
+    .artistName {
+        font-size: 14px;
+    }
+
+    .releaseDate {
+        font-size: 10px;
+    }
+
+    .rightNav {
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    .rightNav i {
+        padding-left: 0;
+        font-size: 30px;
+        display:none;
+    }
+
+    #contentDisplay {
+        padding: 20px;
+        grid-template-columns: 1fr;
+    }
+
+    #leftGrid,
+    #rightGrid {
+        padding: 10px;
+    }
+
+}
